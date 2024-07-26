@@ -158,6 +158,7 @@ h1 {
 }
 h4 {
   font-family: 'PoppinsMedium', sans-serif;
+  font-size: 1.0rem;
 }
 p {
   font-family: 'PoppinsReguler', sans-serif;
