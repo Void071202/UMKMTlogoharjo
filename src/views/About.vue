@@ -19,13 +19,13 @@
         <div id="carouselExampleIndicators" class="relative w-full">
           <div class="carousel-inner relative w-full overflow-hidden rounded-lg shadow-lg">
             <div class="carousel-item active relative float-left w-full h-80">
-              <img src="@/assets/Desa.jpeg" class="block w-full h-full object-cover" alt="Gambar 1">
+              <img src="@/assets/desa.jpg" class="block w-full h-full object-cover" alt="Gambar 1">
             </div>
             <div class="carousel-item relative float-left w-full h-80">
-              <img src="@/assets/home.jpg" class="block w-full h-full object-cover" alt="Gambar 2">
+              <img src="@/assets/rumah.jpg" class="block w-full h-full object-cover" alt="Gambar 2">
             </div>
             <div class="carousel-item relative float-left w-full h-80">
-              <img src="@/assets/Pemandangan.jpeg" class="block w-full h-full object-cover" alt="Gambar 3">
+              <img src="@/assets/forest.jpg" class="block w-full h-full object-cover" alt="Gambar 3">
             </div>
           </div>
           <button class="absolute top-1/2 left-0 transform -translate-y-1/2 z-10 flex items-center justify-center p-2 bg-gray-800 bg-opacity-50 border border-gray-300 rounded-full hover:bg-opacity-100 transition-opacity" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
