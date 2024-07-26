@@ -1,9 +1,9 @@
 <template>
-  <section class="hero bg-cover bg-center h-screen" :style="{ backgroundImage: `url(${homeImage})` }">
-    <div class="flex justify-center items-center h-full bg-black bg-opacity-50">
-      <div class="text-center text-white text-container">
-        <h1 class="text-5xl font-bold mb-4">UMKM TLOGOHARJO</h1>
-        <p class="text-xl"></p>
+  <section class="hero" :style="{ backgroundImage: `url(${homeImage})` }">
+    <div class="overlay flex justify-center items-center h-full">
+      <div class="text-right text-white text-container">
+        <h1 class="hero-title mb-2">UMKM TLOGOHARJO</h1>
+        <p class="hero-subtitle mb-4">Mengembangkan potensi lokal bersama</p>
       </div>
     </div>
   </section>
@@ -31,16 +31,72 @@ export default {
 }
 
 .hero {
+  position: relative;
+  width: 100%;
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: flex-end; /* Align content to the right */
+  padding-right: 10%; /* Add padding to the right */
 }
 
 .text-container {
-  padding-left: 20px; /* Adjust this value to move the text more or less to the right */
+  max-width: 600px;
+  text-align: right; /* Right align text */
 }
 
-.text-white h1,
-.text-white p {
+.hero-title,
+.hero-subtitle {
   font-family: 'BebasNeue', sans-serif;
-  padding-left: 500px;
+  margin: 0;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay {
+    padding-right: 5%;
+  }
+  .hero-title {
+    font-size: 1.25rem;
+  }
+  .hero-subtitle {
+    font-size: 0.875rem;
+  }
 }
 </style>
