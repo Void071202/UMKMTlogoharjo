@@ -12,6 +12,7 @@
       <div v-for="product in filteredProducts" :key="product.id" class="product-card">
         <img :src="product.image" :alt="product.name" />
         <h4>{{ product.name }}</h4>
+        <p> </p>
         <p>{{ product.description }}</p>
         <p><router-link :to="{ name: 'ProductDetail', params: { id: product.id } }" class="view-button">Selengkapnya</router-link></p>
       </div>
