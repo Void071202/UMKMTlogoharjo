@@ -3,12 +3,12 @@
     <h1 class="text-3xl font-bold mb-4">Contact Us</h1>
     <p class="text-lg">You can reach us through:</p>
     <ul class="list-disc pl-5">
-      <li class="mb-2 flex items-center">
-        <img src="@/assets/whatsapp.png" alt="WhatsApp" class="w-6 h-6 mr-2">
-        <a href="https://wa.me/1234567890" target="_blank" class="text-green-500 bg-green-100 p-2 rounded flex-grow">
-          WhatsApp
-        </a>
-      </li>
+      <p class="text-lg mb-4">
+            <strong>Desa Tlogoharjo</strong><br>
+            Giritontro, Wonogiri, Jawa Tengah<br>
+            Telp: (0274) 543914 / 543915<br>
+            Email: info@tlogoharjo.desa.id
+            </p>
       <li class="mb-2 flex items-center">
         <img src="@/assets/instagram.png" alt="Instagram" class="w-6 h-6 mr-2">
         <a href="https://www.instagram.com/desatlogoharjomakmur?igsh=MWlubHE2NHB2MTM4OA==" target="_blank" class="text-pink-500 bg-pink-100 p-2 rounded flex-grow">

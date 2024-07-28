@@ -11,9 +11,7 @@
     <div class="product-grid">
       <div v-for="product in filteredProducts" :key="product.id" class="product-card">
         <img :src="product.image" :alt="product.name" />
-        <h4>{{ product.name }}</h4>
-        <p> </p>
-        <p>{{ product.description }}</p>
+        <h4 class="text-xl font-bold mt-4">{{ product.name }}</h4>
         <p><router-link :to="{ name: 'ProductDetail', params: { id: product.id } }" class="view-button">Selengkapnya</router-link></p>
       </div>
     </div>
@@ -117,13 +115,14 @@ export default {
   max-width: 100%;
   border-radius: 10px;
 }
-.product-card h3 {
+.product-card h4 {
   margin: 10px 0;
 }
 .product-card p {
   color: #777;
 }
 .view-button {
+  display: inline-block; /* Ensure the button has proper block behavior */
   padding: 10px;
   border: none;
   background-color: #2cc295;
@@ -131,6 +130,7 @@ export default {
   cursor: pointer;
   border-radius: 5px;
   text-decoration: none;
+  margin-top: 10px; /* Add margin-top for spacing */
 }
 .view-button:hover {
   background-color: #2cc295;

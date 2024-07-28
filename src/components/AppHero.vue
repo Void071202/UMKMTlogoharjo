@@ -1,9 +1,8 @@
 <template>
-  <section class="hero" :style="{ backgroundImage: `url(${homeImage})` }">
-    <div class="overlay flex justify-center items-center h-full">
+  <section class="hero">
+    <div class="overlay flex justify-center items-center">
       <div class="text-right text-white text-container">
         <h1 class="hero-title mb-2">UMKM TLOGOHARJO</h1>
-        <p class="hero-subtitle mb-4">Mengembangkan potensi lokal bersama</p>
       </div>
     </div>
   </section>
@@ -33,11 +32,14 @@ export default {
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
+  max-width: 1240px;
+  height: 661px;
+  background-image: url('@/assets/home.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .overlay {
@@ -45,14 +47,14 @@ export default {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
-  align-items: center; /* Center content vertically */
-  justify-content: flex-end; /* Align content to the right */
-  padding-right: 10%; /* Add padding to the right */
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10%;
 }
 
 .text-container {
   max-width: 600px;
-  text-align: right; /* Right align text */
+  text-align: right;
 }
 
 .hero-title,
@@ -71,6 +73,10 @@ export default {
 
 /* Media queries for responsive design */
 @media (max-width: 1024px) {
+  .hero {
+    max-width: 100%;
+    height: 50vh; /* Adjust height for medium devices */
+  }
   .hero-title {
     font-size: 2rem;
   }
@@ -80,6 +86,10 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    max-width: 100%;
+    height: 40vh; /* Adjust height for smaller devices */
+  }
   .hero-title {
     font-size: 1.5rem;
   }
@@ -89,6 +99,12 @@ export default {
 }
 
 @media (max-width: 480px) {
+  .hero {
+    max-width: 100%;
+    height: 30vh; /* Adjust height for mobile devices */
+    background-size: cover; /* Ensure the image is fully visible */
+    background-position: center; /* Ensure the image is aligned properly */
+  }
   .overlay {
     padding-right: 5%;
   }

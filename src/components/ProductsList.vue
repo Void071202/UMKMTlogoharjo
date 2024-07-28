@@ -4,10 +4,10 @@
       <h2 class="text-3xl font-bold text-center mb-8">OUR PRODUCT</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div v-for="product in products" :key="product.id" class="product-card">
-          <img :src="product.image" :alt="product.name" class="w-full h-64 object-cover">
+          <img :src="product.image" :alt="product.name" class="w-full h-64 object-cover rounded">
           <h3 class="text-xl font-bold mt-4">{{ product.name }}</h3>
           <router-link :to="{ name: 'ProductDetail', params: { id: product.id } }" class="mt-2 py-2 px-4 bg-brown-800 text-white rounded inline-block text-center btn-selengkapnya">
-    Selengkapnya
+            Selengkapnya
           </router-link>
         </div>
       </div>
@@ -21,21 +21,21 @@ export default {
   data() {
     return {
       products: [
-      {
-            id: 1,
-            name: 'Intip Madu Santosa',
-            image: require('@/assets/intip.jpg') // Ganti dengan path gambar yang benar
-          },
-          {
-            id: 2,
-            name: 'Kembang Goyang',
-            image: require('@/assets/Kembanggoyang.jpg') // Ganti dengan path gambar yang benar
-          },
-          {
-            id: 3,
-            name: 'Arang Warimo',
-            image: require('@/assets/arang.jpg') // Ganti dengan path gambar yang benar
-          }
+        {
+          id: 1,
+          name: 'Intip Madu Santosa',
+          image: require('@/assets/intip.jpg')
+        },
+        {
+          id: 2,
+          name: 'Kembang Goyang',
+          image: require('@/assets/Kembanggoyang.jpg')
+        },
+        {
+          id: 3,
+          name: 'Arang Warimo',
+          image: require('@/assets/arang.jpg')
+        }
       ]
     };
   }
@@ -74,10 +74,10 @@ h3 {
   font-family: 'PoppinsMedium', sans-serif;
 }
 h2 {
-  font-family: 'BebasNeue', sans-serif; /* Mengatur jenis font */
-  font-size: 2.4rem; /* Ukuran font */
+  font-family: 'BebasNeue', sans-serif;
+  font-size: 2.4rem;
 }
 .btn-selengkapnya {
-    font-family: 'PoppinsReguler', sans-serif; 
+  font-family: 'PoppinsReguler', sans-serif;
 }
 </style>
