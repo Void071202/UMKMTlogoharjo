@@ -23,23 +23,24 @@ export default {
     // Fetch the product details using the productId
     const products = [
       {
-        id: 1,
-        name: 'Intip Madu Santosa',
-        description: 'Intip madu adalah salah satu produk makanan khas dari Indonesia, terutama Jawa Tengah. Intip adalah lapisan kerak nasi yang terbentuk di bagian bawah periuk atau wajan saat memasak nasi. Ketika nasi dimasak dalam panci tradisional, sering kali bagian bawah nasi menjadi agak keras dan terbentuk kerak. Inilah yang disebut intip. Untuk membuat intip madu, kerak nasi ini biasanya dikeringkan terlebih dahulu hingga benar-benar keras. Setelah itu, intip tersebut digoreng hingga garing dan berwarna kecokelatan. Proses penggorengan ini memberikan tekstur yang renyah pada intip. Setelah digoreng, intip biasanya disajikan dengan cara diberi siraman madu atau gula cair. Madu atau gula cair ini memberikan rasa manis yang khas dan lezat pada intip yang sudah renyah. Kombinasi antara tekstur renyah dan rasa manis membuat intip madu menjadi camilan yang digemari banyak orang. Intip madu sering dijual sebagai oleh-oleh khas dari berbagai daerah di Jawa Tengah, seperti Solo dan sekitarnya. Camilan ini selain memiliki cita rasa yang unik, juga membawa nilai nostalgia bagi banyak orang yang mengingat masa kecil mereka saat makan intip yang dibuat secara tradisional.',
-        image: require('@/assets/intip.jpg')
+       id: 1,
+       name: "Intip Madu Santosa",
+       description: "Intip madu adalah salah satu produk makanan khas dari Indonesia, terutama Jawa Tengah. Intip adalah lapisan kerak nasi yang terbentuk di bagian bawah periuk atau wajan saat memasak nasi. Ketika nasi dimasak dalam panci tradisional, sering kali bagian bawah nasi menjadi agak keras dan terbentuk kerak. Inilah yang disebut intip. Untuk membuat intip madu, kerak nasi ini biasanya dikeringkan terlebih dahulu hingga benar-benar keras. Setelah itu, intip tersebut digoreng hingga garing dan berwarna kecokelatan. Proses penggorengan ini memberikan tekstur yang renyah pada intip. Setelah digoreng, intip biasanya disajikan dengan cara diberi siraman madu atau gula cair. Madu atau gula cair ini memberikan rasa manis yang khas dan lezat pada intip yang sudah renyah. Kombinasi antara tekstur renyah dan rasa manis membuat intip madu menjadi camilan yang digemari banyak orang. Intip madu sering dijual sebagai oleh-oleh khas dari berbagai daerah di Jawa Tengah, seperti Solo dan sekitarnya. Camilan ini selain memiliki cita rasa yang unik, juga membawa nilai nostalgia bagi banyak orang yang mengingat masa kecil mereka saat makan intip yang dibuat secara tradisional.\n\nAlamat: Kecamatan Giritontro, Kelurahan Tlogoharjo, Dusun Jajar RT 05/RW 02.\n\nNomor WhatsApp: 082134245442.",
+       image: require('@/assets/intip.jpg')
       },
       {
         id: 2,
         name: 'Kembang Goyang',
-        description: 'Kembang Goyang adalah salah satu camilan tradisional yang populer di Indonesia, khususnya di daerah Jawa. Kembang Goyang terbuat dari adonan tepung beras yang dicampur dengan santan dan bahan-bahan lainnya, kemudian digoreng menggunakan cetakan khusus berbentuk bunga. Hasilnya adalah camilan yang renyah dan berbentuk bunga yang cantik, yang sering disajikan pada acara-acara spesial dan hari raya. Kembang Goyang memiliki rasa yang gurih dan sedikit manis, cocok dinikmati sebagai teman minum teh atau kopi. Produk ini diproduksi di kecamatan Giritontro, kabupaten Wonogiri, kelurahan Tlogoharjo, dusun Ginade Kulon.',
+        description: 'Kembang Goyang adalah salah satu camilan tradisional yang populer di Indonesia, khususnya di daerah Jawa. Kembang Goyang terbuat dari adonan tepung beras yang dicampur dengan santan dan bahan-bahan lainnya, kemudian digoreng menggunakan cetakan khusus berbentuk bunga. Hasilnya adalah camilan yang renyah dan berbentuk bunga yang cantik, yang sering disajikan pada acara-acara spesial dan hari raya. Kembang Goyang memiliki rasa yang gurih dan sedikit manis, cocok dinikmati sebagai teman minum teh atau kopi. Produk ini diproduksi di kecamatan Giritontro, kabupaten Wonogiri, kelurahan Tlogoharjo, dusun Ginade Kulon.\n\n Nomor Whatsapp: ',
         image: require('@/assets/Kembanggoyang.jpg')
       },
       {
         id: 3,
-        name: 'Arang Warimo',
-        description: 'Arang Warimo adalah produk arang yang dibuat dari pohon akasia. Arang ini diproduksi melalui proses pembakaran kayu akasia yang dikontrol dengan baik, sehingga menghasilkan arang berkualitas tinggi yang memiliki daya bakar lama dan panas yang konsisten. Arang Warimo sangat cocok digunakan untuk berbagai keperluan, mulai dari memasak, BBQ, hingga kebutuhan industri. Produk ini diproduksi di kecamatan Giritontro, kelurahan Tlogoharjo, kabupaten Wonogiri, dusun Jajar.',
+        name: "Arang Warimo",
+        description: "Arang Warimo adalah produk arang yang dibuat dari pohon akasia. Arang ini diproduksi melalui proses pembakaran kayu akasia yang dikontrol dengan baik, sehingga menghasilkan arang berkualitas tinggi yang memiliki daya bakar lama dan panas yang konsisten. Arang Warimo sangat cocok digunakan untuk berbagai keperluan, mulai dari memasak, BBQ, hingga kebutuhan industri. Produk ini diproduksi di Kecamatan Giritontro, Kelurahan Tlogoharjo, Kabupaten Wonogiri, Dusun Jajar.\n\nNomor WhatsApp: 082142176669.",
         image: require('@/assets/arang.jpg')
       }
+
     ];
     this.product = products.find(product => product.id === parseInt(productId));
   }
