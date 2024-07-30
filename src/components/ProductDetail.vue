@@ -31,7 +31,7 @@ export default {
       {
         id: 2,
         name: 'Kembang Goyang',
-        description: 'Kembang Goyang adalah salah satu camilan tradisional yang populer di Indonesia, khususnya di daerah Jawa. Kembang Goyang terbuat dari adonan tepung beras yang dicampur dengan santan dan bahan-bahan lainnya, kemudian digoreng menggunakan cetakan khusus berbentuk bunga. Hasilnya adalah camilan yang renyah dan berbentuk bunga yang cantik, yang sering disajikan pada acara-acara spesial dan hari raya. Kembang Goyang memiliki rasa yang gurih dan sedikit manis, cocok dinikmati sebagai teman minum teh atau kopi. Produk ini diproduksi di kecamatan Giritontro, kabupaten Wonogiri, kelurahan Tlogoharjo, dusun Ginade Kulon.\n\n Nomor Whatsapp: ',
+        description: 'Kembang Goyang adalah salah satu camilan tradisional yang populer di Indonesia, khususnya di daerah Jawa. Kembang Goyang terbuat dari adonan tepung beras yang dicampur dengan santan dan bahan-bahan lainnya, kemudian digoreng menggunakan cetakan khusus berbentuk bunga. Hasilnya adalah camilan yang renyah dan berbentuk bunga yang cantik, yang sering disajikan pada acara-acara spesial dan hari raya. Kembang Goyang memiliki rasa yang gurih dan sedikit manis, cocok dinikmati sebagai teman minum teh atau kopi. Produk ini diproduksi di kecamatan Giritontro, kabupaten Wonogiri, kelurahan Tlogoharjo, dusun Ginade Kulon.\n\n Nomor Whatsapp: 081326778825 ',
         image: require('@/assets/Kembanggoyang.jpg')
       },
       {
