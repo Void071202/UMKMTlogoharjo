@@ -35,6 +35,11 @@ export default {
           id: 3,
           name: 'Arang Warimo',
           image: require('@/assets/arang.jpg')
+        },
+        {
+          id: 4,
+          name: 'G.M Mebel',
+          image: require('@/assets/mebel.jpg')
         }
       ]
     };

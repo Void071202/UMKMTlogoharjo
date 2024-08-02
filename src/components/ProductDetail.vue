@@ -39,7 +39,13 @@ export default {
         name: "Arang Warimo",
         description: "Arang Warimo adalah produk arang yang dibuat dari pohon akasia. Arang ini diproduksi melalui proses pembakaran kayu akasia yang dikontrol dengan baik, sehingga menghasilkan arang berkualitas tinggi yang memiliki daya bakar lama dan panas yang konsisten. Arang Warimo sangat cocok digunakan untuk berbagai keperluan, mulai dari memasak, BBQ, hingga kebutuhan industri. Produk ini diproduksi di Kecamatan Giritontro, Kelurahan Tlogoharjo, Kabupaten Wonogiri, Dusun Jajar.\n\nNomor WhatsApp: 082142176669.",
         image: require('@/assets/arang.jpg')
-      }
+      },
+      {
+        id: 4,
+        name: 'G.M Mebel',
+        description: "Gino Mulyo Mebel, atau yang sering disingkat sebagai G.M Mebel, adalah sebuah tempat pembuatan mebel yang dikenal dengan keahliannya dalam menghasilkan produk-produk berkualitas tinggi dari kayu jati dan kayu mahoni. Tempat ini telah lama melayani berbagai kebutuhan mebel dengan spesialisasi pada pembuatan pintu, lemari, jendela, dan berbagai peralatan mebel lainnya.\n\nDi G.M Mebel, setiap produk dibuat dengan perhatian yang mendalam terhadap detail dan kualitas, memastikan bahwa setiap pesanan yang diterima dapat memenuhi harapan pelanggan. Dengan bahan baku utama kayu jati dan kayu mahoni yang terkenal akan kekuatan dan keindahannya, G.M Mebel siap untuk menjadi pilihan utama Anda dalam memenuhi kebutuhan mebel berkualitas tinggi. \n\nAlamat:\nDusun Purembe, Kelurahan Tlogoharjo, Kecamatan Giritontro, Kabupaten Wonogiri, Provinsi Jawa Tengah.\n\nKontak:\nNomor WhatsApp: 082243202102.",
+        image: require('@/assets/mebel.jpg')
+        }
 
     ];
     this.product = products.find(product => product.id === parseInt(productId));
