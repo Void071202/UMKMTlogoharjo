@@ -5,7 +5,7 @@
         <div class="p-4 border border-gray-200 rounded shadow-lg">
           <h2 class="text-3xl font-bold mb-4 text-center">ABOUT US</h2>
           <p class="text-lg mb-4">
-            Desa Tlogoharjo adalah desa di kecamatan Slogohimo, Wonogiri, Jawa Tengah. Dikenal dengan budaya kuat dan keramahan penduduknya. Lingkungan alam yang asri menjadikan desa ini nyaman dan menarik untuk dikunjungi. Profil desa mencakup lokasi di Slogohimo, Wonogiri, Jawa Tengah dengan penduduk sebanyak 3.500 jiwa dan luas wilayah 500 hektar. Mata pencaharian utama meliputi pertanian, peternakan, dan UMKM.
+            Desa Tlogoharjo adalah desa di kecamatan Giritontro, Wonogiri, Jawa Tengah. Dikenal dengan budaya kuat dan keramahan penduduknya. Lingkungan alam yang asri menjadikan desa ini nyaman dan menarik untuk dikunjungi. Profil desa mencakup lokasi di Giritontro, Wonogiri, Jawa Tengah dengan penduduk sebanyak 2.173 jiwa dan luas wilayah 690,7 hektar. Mata pencaharian utama meliputi pertanian, peternakan, dan UMKM.
           </p>
           <p class="text-lg mb-4">
             <strong>Desa Tlogoharjo</strong><br>
