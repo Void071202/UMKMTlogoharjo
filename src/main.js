@@ -12,7 +12,6 @@ new Vue({
   render: h => h(App),
 }).$mount('#app');
 
-// eslint-disable-next-line no-unused-vars
 
 Vue.use(VueGoogleMaps, {
   load: {
